@@ -1,7 +1,7 @@
 {
   "name": "assign-mentor",
   "version": "1.0.0",
-  "description": "Your project description here",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,12 +9,8 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Your Name",
+  "author": "",
   "license": "ISC",
-  "private": true,  // Prevent accidental publishing
-  "engines": {
-    "node": ">=14"  // Specify the required Node.js version
-  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^14.2.0",
