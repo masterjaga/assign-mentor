@@ -1,20 +1,27 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongoose": "^7.0.5",
-    "nodemon": "^2.0.22"
-  },
-  "name": "mentor-task",
+  "name": "assign-mentor",
   "version": "1.0.0",
+  "description": "Your project description here",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
-  "description": ""
+  "private": true,  // Prevent accidental publishing
+  "engines": {
+    "node": ">=14"  // Specify the required Node.js version
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
