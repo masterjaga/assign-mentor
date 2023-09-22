@@ -3,7 +3,7 @@ import { students } from "./routes/student.js";
 import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
-import { MongoClient } from "mongodb";
+import { createConnection } from "mongodb";
 
 dotenv.config();
 
